@@ -9,3 +9,7 @@
 ## 1.0.4 - 30 Nov 2022
 
 - Isolated the directives
+
+## 1.0.5 - 30 Nov 2022
+
+- Combine the directives
