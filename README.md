@@ -9,7 +9,7 @@ This package is available for VueJS 2x
 From NPM:
 
 ```
-> npm i vuejs-context-menu
+> npm i vue2-simple-context-menu
 ```
 
 ## Browser
