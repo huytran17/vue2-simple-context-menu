@@ -13,3 +13,7 @@
 ## 1.0.5 - 30 Nov 2022
 
 - Combine the directives
+
+## 1.0.6 - 30 Nov 2022
+
+- Update README.md

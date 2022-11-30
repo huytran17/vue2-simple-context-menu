@@ -21,8 +21,31 @@ From NPM:
 ></script>
 <script
   type="text/javascript"
-  src="node_modules/vuejs-context-menu/dist/vuejs-context-menu.min.js"
+  src="node_modules/vue2-simple-context-menu/dist/vue2-simple-context-menu.min.js"
 ></script>
+<script type="text/javascript">
+  Vue.use(Vue2SimpleContextMenu);
+</script>
+```
+
+## Usage
+
+Import and register the component
+
+```javascript
+import Vue2SimpleContextMenu from "vue2-simple-context-menu";
+
+// Global registration
+Vue.component("vue2-simple-context-menu", Vue2SimpleContextMenu);
+
+// OR
+
+// Local registration
+export default {
+  components: {
+    Vue2SimpleContextMenu,
+  },
+};
 ```
 
 ## Usage
