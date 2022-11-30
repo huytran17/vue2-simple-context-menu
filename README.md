@@ -1,4 +1,4 @@
-# vuejs-context-menu
+# vue2-simple-context-menu
 
 # Description
 
