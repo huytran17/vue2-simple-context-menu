@@ -1,7 +1,8 @@
 {
   "name": "vue2-simple-context-menu",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A VueJS plugin for custom menu context",
+  "license": "MIT",
 
   "main": "dist/vue2-simple-context-menu.ssr.js",
   "browser": "dist/vue2-simple-context-menu.esm.js",
@@ -50,5 +51,20 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huytran17/vue2-simple-context-menu.git"
+  },
+  "keywords": [
+    "vue-context-menu",
+    "context-menu",
+    "menu",
+    "vue menu",
+    "vue context",
+    "vue context-menu",
+    "dropdown",
+    "select",
+    "vue"
+  ]
 }
