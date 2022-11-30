@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { clickOutside } from "./directives";
+import { clickOutside } from "@/directives";
 
 export default {
   name: "VueJSContextMenu",
