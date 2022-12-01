@@ -54,10 +54,10 @@ export default {
 <h1 class="test" @contextmenu.prevent="$refs.ctxMenu.showMenu">
   Right click me
 </h1>
-<vue2-simple-context-menu ref="ctxMenu">
+<context-menu ref="ctxMenu">
   <span @click="something">Item 1</span>
   <span>Item 2</span>
-</vue2-simple-context-menu>
+</context-menu>
 ```
 
 ## Contributing
