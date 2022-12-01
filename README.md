@@ -30,7 +30,7 @@ From NPM:
 </script>
 ```
 
-## Usage
+## Registration
 
 Import and register the component
 

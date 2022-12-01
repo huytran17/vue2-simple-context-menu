@@ -26,7 +26,7 @@
 
 - Update README.md
 
-## 2.0.1 - 01 Dec 2022
+## 2.0.1, 2.0.2 - 01 Dec 2022
 
 - Update README.md
 - Add example
