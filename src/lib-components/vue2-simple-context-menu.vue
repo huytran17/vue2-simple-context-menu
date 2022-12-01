@@ -12,7 +12,7 @@ export default {
       bind: function (element, binding, vnode) {
         element.clickOutsideEvent = function (event) {
           const isClickedOutside =
-            element !== event.target || !element.contains(event.target);
+            element !== event.target || !element.includes(event.target);
 
           if (isClickedOutside) {
             vnode.context[binding.expression](event);

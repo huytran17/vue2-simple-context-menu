@@ -36,7 +36,7 @@ Import and register the component
 import Vue2SimpleContextMenu from "vue2-simple-context-menu";
 
 // Global registration
-Vue.component("vue2-simple-context-menu", Vue2SimpleContextMenu);
+Vue.use(Vue2SimpleContextMenu);
 
 // OR
 
@@ -54,10 +54,10 @@ export default {
 <h1 class="test" @contextmenu.prevent="$refs.ctxMenu.showMenu">
   Right click me
 </h1>
-<context-menu ref="ctxMenu">
+<vue2-simple-context-menu ref="ctxMenu">
   <span @click="something">Item 1</span>
   <span>Item 2</span>
-</context-menu>
+</vue2-simple-context-menu>
 ```
 
 ## Contributing

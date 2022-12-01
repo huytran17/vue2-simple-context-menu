@@ -59,7 +59,7 @@ var script = {
     clickOutside: {
       bind: function bind(element, binding, vnode) {
         element.clickOutsideEvent = function (event) {
-          var isClickedOutside = element !== event.target || !element.contains(event.target);
+          var isClickedOutside = element !== event.target || !element.includes(event.target);
           if (isClickedOutside) {
             vnode.context[binding.expression](event);
           }
@@ -244,16 +244,16 @@ var __vue_staticRenderFns__ = [];
 /* style */
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-76eff592_0", {
-    source: "#vuejs__context-menu[data-v-76eff592]{min-height:10px;min-width:100px;background:#fff;border:1px solid #d3c9c9;padding:4px 6px;border-radius:4px;position:absolute;z-index:9999}",
+  inject("data-v-28cf74e3_0", {
+    source: "#vuejs__context-menu[data-v-28cf74e3]{min-height:10px;min-width:100px;background:#fff;border:1px solid #d3c9c9;padding:4px 6px;border-radius:4px;position:absolute;z-index:9999}",
     map: undefined,
     media: undefined
   });
 };
 /* scoped */
-var __vue_scope_id__ = "data-v-76eff592";
+var __vue_scope_id__ = "data-v-28cf74e3";
 /* module identifier */
-var __vue_module_identifier__ = "data-v-76eff592";
+var __vue_module_identifier__ = "data-v-28cf74e3";
 /* functional template */
 var __vue_is_functional_template__ = false;
 /* style inject shadow dom */

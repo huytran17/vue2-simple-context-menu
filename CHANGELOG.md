@@ -21,3 +21,7 @@
 ## 1.0.7 - 30 Nov 2022
 
 - Make dist folder
+
+## 1.0.8 - 01 Dec 2022
+
+- Update README.md
