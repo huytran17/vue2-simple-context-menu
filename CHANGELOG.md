@@ -25,3 +25,8 @@
 ## 1.0.8, 1.0.9 - 01 Dec 2022
 
 - Update README.md
+
+## 2.0.1 - 01 Dec 2022
+
+- Update README.md
+- Add example
